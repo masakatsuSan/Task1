@@ -1,0 +1,43 @@
+@font-face {
+    font-family: space;
+    src: url(./NexilaDemo-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(/webpage/space.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    font-family:space;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 50px;
+    font-size:150px;
+    font-weight: 500;
+}
+button {
+  background-color: #fff;
+  color: black;
+  border-radius: 25px;
+  border: none;
+  padding: 15px 40px;     /* makes it bigger */
+  font-size: 20px;        /* readable text */
+  margin-left: 900px;
+  align-items:center;
+  cursor: pointer;        /* shows hand icon */
+  position: relative;        
+}
+
+
